@@ -1,0 +1,283 @@
+
+body {
+	color: white;
+    font-family: monospace;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+div {
+    text-shadow: 1px 1px 8px blueviolet;
+    margin: 15px;
+    overflow: hidden;
+}
+
+
+/*index page*/
+
+.index {
+  background-image: url("coats.jpg");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn1 {
+    position: absolute;
+    top: 25em;
+    left: 52em;
+    right: 100px;
+    bottom: 100px;
+    width: 200px;
+    height: 400px;
+    opacity: 0;
+}
+
+.nextindex {
+    position: absolute;
+    width: 400px;
+    height: 20em;
+    top: 20em;
+    opacity: 0;
+}
+
+/*page1*/
+
+.page1 { 
+  background-image: url("kitchen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next1 {
+    position: absolute;
+    width: 100px;
+    height: 20em;
+    top: 20em;
+    left: 87em;
+    opacity: 0;
+}
+
+    .btn2 {
+    position: absolute;
+    width: 90px;
+    height: 150px;
+    left: 78em;
+    top: 30em;
+    opacity: 0;
+}
+
+/*page 2*/
+
+.page2 {
+  background-image: url("sink.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next2 {
+    position: absolute;
+    bottom: 0px;
+    left: 25em;
+    width: 35em;
+    height: 15em;
+    opacity: 0;
+}
+
+.btn3 {
+    position: absolute;
+    left: 62em;
+    bottom: 20px;
+    width: 200px;
+    height: 210px;
+    opacity: 0;
+}
+
+/*page 3*/
+
+.page3 {
+   background-image: url("hallway.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next3 {
+    position: absolute;
+    width: 280px;
+    bottom: 0px;
+    left: 26em;
+    height: 50em;
+    opacity: 0;
+}
+
+.btn4 {
+    position: absolute;
+    left: 60em;
+    width: 280px;
+    height: 42em;
+    top: 12em;
+    opacity: 0;
+}
+
+/*page4*/
+
+.page4 {
+  background-image: url("bed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next4 {
+    position: absolute;
+    bottom: 10px;
+    left: 20em;
+    height: 180px;
+    width: 30em;
+    opacity: 0;
+}
+
+.btn5 {
+    position: absolute;
+    width: 150px;
+    bottom: 70px;
+    left: 54em;
+    height: 80px;
+    opacity: 0;
+}
+
+/*page 5*/
+
+.page5 {
+    background-image: url("desk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next5 {
+    position: absolute;
+    left: 140px;
+    width: 27em;
+    height: 30em;
+    opacity: 0;
+}
+
+.btn6 {
+    position: absolute;
+    left: 85em;
+    width: 300px;
+    height: 35em;
+    top: 15em;
+    opacity: 0;
+}
+
+/*page 6*/
+
+.page6 {
+    background-image: url("yngrid.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next6 {
+    position: absolute;
+    left: 53em;
+    top: 18em;
+    width: 150px;
+    height: 350px;
+    opacity: 0;
+}
+
+.btn7 {
+    position: absolute;
+    right: 10px;
+    top: 25em;
+    width: 100px;
+    height: 220px;
+    opacity: 0;
+}
+
+/*page 7*/
+
+.page7 {
+    background-image: url("bathroom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next7 {
+    position: absolute;
+    left: 60em;
+    bottom: 0px;
+    width: 220px;
+    height: 340px;
+    opacity: 0;
+}
+
+.btn8 {
+    position: absolute;
+    left: 60em;
+    top: 2em;
+    width: 280px;
+    height: 400px;
+    opacity: 0;
+}
+
+/*page 8*/
+
+.page8 {
+    background-image: url("toothbrush.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next8 {
+    position: absolute;
+    left: 36em;
+    bottom: 130px;
+    width: 220px;
+    height: 250px;
+    opacity: 0;
+}
+
+.btn9 {
+    position: absolute;
+    left: 40em;
+    bottom: 0px;
+    width: 200px;
+    height: 120px;
+    opacity: 0;
+}
+
+/*page 9*/
+
+.page9 {
+    background-image: url("bathtub.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next9 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 450px;
+    height: 90em;
+    opacity: 0;
+}
+
+.btn10 {
+    position: absolute;
+    left: 81em;
+    bottom: 90px;
+    width: 100px;
+    height: 200px;
+    opacity: 0;
+}
+
+
+
+
+/*.main {
+	background-color: black;
+	padding: 50px 10px;
+	margin: 20px 0px;
+}
