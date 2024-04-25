@@ -24,19 +24,18 @@ div {
 .btn1 {
     position: absolute;
     top: 25em;
-    left: 52em;
+    left: 50em;
     right: 100px;
     bottom: 100px;
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
     opacity: 0;
 }
 
 .nextindex {
     position: absolute;
     width: 400px;
-    height: 20em;
-    top: 20em;
+    height: 60em;
     opacity: 0;
 }
 
@@ -50,18 +49,18 @@ div {
 
 .next1 {
     position: absolute;
-    width: 100px;
-    height: 20em;
-    top: 20em;
-    left: 87em;
+    width: 150px;
+    height: 24em;
+    top: 16em;
+    left: 85em;
     opacity: 0;
 }
 
     .btn2 {
     position: absolute;
-    width: 90px;
-    height: 150px;
-    left: 78em;
+    width: 120px;
+    height: 160px;
+    left: 76em;
     top: 30em;
     opacity: 0;
 }
@@ -77,18 +76,18 @@ div {
 .next2 {
     position: absolute;
     bottom: 0px;
-    left: 25em;
-    width: 35em;
-    height: 15em;
+    left: 21em;
+    width: 41em;
+    height: 17em;
     opacity: 0;
 }
 
 .btn3 {
     position: absolute;
-    left: 62em;
+    left: 61em;
     bottom: 20px;
-    width: 200px;
-    height: 210px;
+    width: 300px;
+    height: 250px;
     opacity: 0;
 }
 
