@@ -37,7 +37,7 @@ div {
 button {
     cursor: pointer; /* PROF NOTE: Cursor for button when hovering over them */
     /* To make button visible for easy positioning */
-    opacity: 0.10 !important;
+    opacity: 0.05 !important;
     background-color: blueviolet;
 }
 
@@ -332,8 +332,8 @@ button {
     width: 220px;
     height: 340px;
     opacity: 0;*/
-        top: 0%;
-    bottom: 40%;
+    top: 60%;
+    bottom: 0%;
     left: 50%;
     right: 20%;
     opacity: 0;
@@ -346,12 +346,11 @@ button {
     width: 280px;
     height: 400px;
     opacity: 0;*/
-       top: 60%;
-    bottom: 0%;
+            top: 0%;
+    bottom: 40%;
     left: 50%;
     right: 20%;
     opacity: 0;
-
 }
 
 /*page 8*/
