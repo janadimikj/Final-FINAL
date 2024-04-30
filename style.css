@@ -94,20 +94,32 @@ button {
 }
 
 .next1 {
-    position: absolute;
+ /*   position: absolute;
     width: 150px;
     height: 24em;
     top: 16em;
     left: 85em;
+    opacity: 0;*/
+    position: absolute;
+    top: 25%;
+    left: 74%;
+    bottom: 25%;
+    right: 13%;
     opacity: 0;
 }
 
     .btn2 {
-    position: absolute;
+    /*position: absolute;
     width: 120px;
     height: 160px;
     left: 76em;
     top: 30em;
+    opacity: 0;*/
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    bottom: 25%;
+    right: 25%;
     opacity: 0;
 }
 
@@ -120,20 +132,32 @@ button {
 }
 
 .next2 {
-    position: absolute;
+   /* position: absolute;
     bottom: 0px;
     left: 21em;
     width: 41em;
     height: 17em;
+    opacity: 0;*/
+     position: absolute;
+    top: 70%;
+    left: 15%;
+    bottom: 0%;
+    right: 45%;
     opacity: 0;
 }
 
 .btn3 {
-    position: absolute;
+ /*   position: absolute;
     left: 61em;
     bottom: 20px;
     width: 300px;
     height: 250px;
+    opacity: 0;*/
+     position: absolute;
+    top: 60%;
+    left: 55%;
+    bottom: 0%;
+    right: 25%;
     opacity: 0;
 }
 
@@ -146,20 +170,33 @@ button {
 }
 
 .next3 {
-    position: absolute;
+    /*position: absolute;
     width: 280px;
     bottom: 0px;
     left: 26em;
     height: 50em;
+    opacity: 0;*/
+    position: absolute;
+       top: 10%;
+    left: 20%;
+    bottom: 0%;
+    right: 55%;
     opacity: 0;
 }
 
 .btn4 {
-    position: absolute;
+   /* position: absolute;
     left: 60em;
     width: 280px;
     height: 42em;
     top: 12em;
+    opacity: 0;*/
+    position: absolute;
+       top: 60%;
+    left: 50%;
+    bottom: 0%;
+    right: 28%;
+    top: 15%;
     opacity: 0;
 }
 
@@ -173,19 +210,29 @@ button {
 
 .next4 {
     position: absolute;
-    bottom: 10px;
+   /* bottom: 10px;
     left: 20em;
     height: 180px;
     width: 30em;
+    opacity: 0;*/
+    top: 70%;
+    bottom: 0%;
+    left: 10%;
+    right: 55%;
     opacity: 0;
 }
 
 .btn5 {
     position: absolute;
-    width: 160px;
+    /*width: 160px;
     bottom: 30px;
     left: 53em;
     height: 120px;
+    opacity: 0;*/
+    top: 70%;
+    bottom: 0%;
+    left: 45%;
+    right: 40%;
     opacity: 0;
 }
 
@@ -199,18 +246,28 @@ button {
 
 .next5 {
     position: absolute;
-    left: 140px;
+/*    left: 140px;
     width: 27em;
     height: 30em;
+    opacity: 0;*/
+    top: 0%;
+    bottom: 40%;
+    left: 9%;
+    right: 60%;
     opacity: 0;
 }
 
 .btn6 {
     position: absolute;
-    left: 85em;
+ /*   left: 85em;
     width: 300px;
     height: 35em;
     top: 15em;
+    opacity: 0;*/
+    top: 20%;
+    bottom: 10%;
+    left: 70%;
+    right: 5%;
     opacity: 0;
 }
 
@@ -224,20 +281,28 @@ button {
 
 .next6 {
     position: absolute;
-    left: 53em;
+    /*left: 53em;
     top: 18em;
     width: 150px;
     height: 350px;
-    opacity: 0;
+    opacity: 0;*/
+    top: 0%;
+    bottom: 40%;
+    left: 50%;
+    right: 20%;
 }
 
 .btn7 {
     position: absolute;
-    right: 10px;
+   /* right: 10px;
     top: 25em;
     width: 100px;
     height: 220px;
-    opacity: 0;
+    opacity: 0;*/
+    top: ;
+    bottom: 0%;
+    left: ;
+    right: ;
 }
 
 /*page 7*/
@@ -250,20 +315,31 @@ button {
 
 .next7 {
     position: absolute;
-    left: 60em;
+/*    left: 60em;
     bottom: 0px;
     width: 220px;
     height: 340px;
+    opacity: 0;*/
+        top: 0%;
+    bottom: 40%;
+    left: 50%;
+    right: 20%;
     opacity: 0;
 }
 
 .btn8 {
     position: absolute;
-    left: 60em;
+    /*left: 60em;
     top: 2em;
     width: 280px;
     height: 400px;
+    opacity: 0;*/
+       top: 60%;
+    bottom: 0%;
+    left: 50%;
+    right: 20%;
     opacity: 0;
+
 }
 
 /*page 8*/
@@ -276,19 +352,29 @@ button {
 
 .next8 {
     position: absolute;
-    left: 36em;
+/*    left: 36em;
     bottom: 130px;
     width: 220px;
     height: 250px;
+    opacity: 0;*/
+       top: 20%;
+    bottom: 14%;
+    left: 30%;
+    right: 45%;
     opacity: 0;
 }
 
 .btn9 {
     position: absolute;
-    left: 40em;
+/*    left: 40em;
     bottom: 0px;
     width: 200px;
     height: 120px;
+    opacity: 0;*/
+       top: 86%;
+    bottom: 0%;
+    left: 35%;
+    right: 45%;
     opacity: 0;
 }
 
@@ -302,19 +388,29 @@ button {
 
 .next9 {
     position: absolute;
-    left: 0px;
+/*    left: 0px;
     bottom: 0px;
     width: 450px;
     height: 90em;
+    opacity: 0;*/
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 65%;
     opacity: 0;
 }
 
 .btn10 {
     position: absolute;
-    left: 81em;
+/*    left: 81em;
     bottom: 90px;
     width: 100px;
     height: 200px;
+    opacity: 0;*/
+    top: 60%;
+    left: 50%;
+    right: 20%;
+    bottom: 10%;
     opacity: 0;
 }
 
