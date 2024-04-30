@@ -4,6 +4,18 @@ body {
     font-family: monospace;
     font-size: 1.2em;
     line-height: 2em;
+
+    /* PROF NOTE: We make the background black and use flex to always align our new "roomContainer" to the middle of the page */
+
+    background-color: #000;
+    background-image: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    width: 100vw;
+    height: 100vh;
 }
 
 div {
@@ -12,6 +24,22 @@ div {
     overflow: hidden;
 }
 
+button {
+    cursor: pointer; /* PROF NOTE: Cursor for button when hovering over them */
+    /* To make button visible for easy positioning */
+}
+
+/* PROF NOTE: We now place all of the site inside this container which will always scale to the width of the
+              browser and maintain a 16/9 aspect ratio for the placement of your buttons to be
+              consistent at different browser sized */
+
+.roomContainer {
+    width: 100%;
+    aspect-ratio: 16/9;
+    max-height: 100vh;
+    position: relative; /* NOTE: Using -RELATIVE- so that the absolute positioned buttons are "relative" to the edges of your actual photo in this container */
+    border-radius: 1em;
+}
 
 /*index page*/
 
@@ -21,7 +49,7 @@ div {
 	background-size: cover;
 }
 
-.btn1 {
+/*.btn1 {
     position: absolute;
     top: 25em;
     left: 50em;
@@ -30,12 +58,30 @@ div {
     width: 300px;
     height: 500px;
     opacity: 0;
+}*/
+
+.btn1 {
+    position: absolute;
+    top: 26%;
+    left: 41%;
+    right: 27%;
+    bottom: 0%;
+    opacity: 0;
 }
 
-.nextindex {
+/*.nextindex {
     position: absolute;
     width: 400px;
     height: 60em;
+    opacity: 0;
+}*/
+
+.nextindex {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 73%;
+    bottom: 0%;
     opacity: 0;
 }
 
@@ -136,10 +182,10 @@ div {
 
 .btn5 {
     position: absolute;
-    width: 150px;
-    bottom: 70px;
-    left: 54em;
-    height: 80px;
+    width: 160px;
+    bottom: 30px;
+    left: 53em;
+    height: 120px;
     opacity: 0;
 }
 
