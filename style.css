@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 body {
 	color: white;
@@ -27,6 +37,8 @@ div {
 button {
     cursor: pointer; /* PROF NOTE: Cursor for button when hovering over them */
     /* To make button visible for easy positioning */
+    opacity: 0.10 !important;
+    background-color: blueviolet;
 }
 
 /* PROF NOTE: We now place all of the site inside this container which will always scale to the width of the
